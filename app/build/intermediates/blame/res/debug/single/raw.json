@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "E:\\files\\Android Projects\\AndroidStudioProjects\\googly-eyes\\app\\build\\intermediates\\res\\merged\\debug\\raw\\alram.mp3",
+        "source": "E:\\files\\Android Projects\\AndroidStudioProjects\\googly-eyes\\app\\src\\main\\res\\raw\\alram.mp3"
+    },
+    {
+        "merged": "E:\\files\\Android Projects\\AndroidStudioProjects\\googly-eyes\\app\\build\\intermediates\\res\\merged\\debug\\raw\\gtm_analytics",
+        "source": "E:\\files\\Android Projects\\AndroidStudioProjects\\googly-eyes\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-analytics\\8.4.0\\res\\raw\\gtm_analytics"
+    }
+]

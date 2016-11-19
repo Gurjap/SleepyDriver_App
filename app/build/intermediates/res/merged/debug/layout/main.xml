@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/topLayout"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:keepScreenOn="true">
+
+  <com.google.android.gms.samples.vision.face.googlyeyes.CameraSourcePreview
+      android:id="@+id/preview"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent">
+
+    <com.google.android.gms.samples.vision.face.googlyeyes.GraphicOverlay
+        android:id="@+id/faceOverlay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+  </com.google.android.gms.samples.vision.face.googlyeyes.CameraSourcePreview>
+
+  <Button
+      android:id="@+id/flipButton"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentLeft="true"
+      android:layout_alignParentBottom="true"
+      android:text="flip"/>
+  <TextView
+      android:layout_alignLeft="@+id/flipButton"
+      android:layout_alignParentEnd="true"
+      android:layout_margin="10dp"
+      android:layout_marginLeft="100dp"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:id="@+id/textviewmy"
+      />
+
+  <Button
+      android:text="on/off"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentBottom="true"
+      android:layout_alignEnd="@+id/textviewmy"
+      android:layout_marginBottom="15dp"
+      android:id="@+id/on_off" />
+</RelativeLayout>
